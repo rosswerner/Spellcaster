@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2xer64cjgo15"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_630nh"]
+
+[node name="UILevel" type="Node2D"]
+script = ExtResource("1_630nh")
+
+[node name="SpellLine" type="Line2D" parent="."]
+top_level = true
